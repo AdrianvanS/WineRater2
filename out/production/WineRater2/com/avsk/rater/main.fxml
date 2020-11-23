@@ -10,7 +10,7 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
-<BorderPane fx:controller="com.avsk.rater.Controller"
+<BorderPane fx:id="mainPanel" fx:controller="com.avsk.rater.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <MenuBar>
@@ -20,7 +20,7 @@
                         <MenuItem text="Add Wine"/>
                         <MenuItem text="Edit Wine"/>
                         <MenuItem text="Delete Wine"/>
-                        <MenuItem text="Exit"/>
+                        <MenuItem text="Exit" onAction="#handleExit"/>
                     </items>
                 </Menu>
             </menus>

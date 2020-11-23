@@ -19,16 +19,14 @@ public class Wine {
     public Wine() {
     }
 
-    public Wine(SimpleStringProperty name, SimpleStringProperty color, SimpleIntegerProperty year,
-                SimpleStringProperty producer, SimpleStringProperty variety, SimpleIntegerProperty rating,
-                SimpleDoubleProperty price) {
-        this.name = name;
-        this.color = color;
-        this.year = year;
-        this.producer = producer;
-        this.variety = variety;
-        this.rating = rating;
-        this.price = price;
+    public Wine(String name, String color, int year, String producer, String variety, int rating, double price){
+        this.name.set(name);
+        this.color.set(color);
+        this.year.set(year);
+        this.producer.set(producer);
+        this.variety.set(variety);
+        this.rating.set(rating);
+        this.price.set(price);
     }
 
     //Getters and Setter
