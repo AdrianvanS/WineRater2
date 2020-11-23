@@ -26,6 +26,7 @@ public class Controller {
         wines.addWine(new Wine("Bobs", "Red", 1999, "Villa Park", "Shiraz", 7, 6.99));
         wines.addWine(new Wine("Natal Rose", "Rose", 2015, "Kloof Park", "Shiraz", 7, 5.75));
         wines.addWine(new Wine("Clear Waters", "White", 2016, "Harry's Place", "Zinfandel", 5, 3.50));
+        wines.addWine(new Wine("Justina's Delight", "White", 1992, "Toby's", "Zinfandel", 7, 4.50));
 
         winesTable.setItems(wines.getWines());
     }
